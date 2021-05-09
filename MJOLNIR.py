@@ -102,7 +102,7 @@ class MyWindow(QMainWindow):
         uiPath = os.path.join(cwd+'\\UI', 'MJOLNIRUI.ui')
         uic.loadUi(uiPath, self)
         self.setWindowIcon(QIcon(os.path.join(cwd+'\\UI\\icons', 'mjolnir.png')))
-        self.setGeometry(890,410,1020,640)
+        self.setGeometry(890,405,1020,640)
         self.setWindowFlags(QtCore.Qt.FramelessWindowHint)
         self.setFixedWidth(1020)
         self.setFixedHeight(640)
