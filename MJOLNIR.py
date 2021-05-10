@@ -142,7 +142,10 @@ class MyWindow(QMainWindow):
     @pyqtSlot()
     def on_pushButton_3_clicked(self):
         self.savepath = str(QFileDialog.getExistingDirectory(self, "Select Directory"))
-        self.label_5.setText(self.savepath)
+        if self.savepath:
+            self.label_5.setText(self.savepath)
+        else:
+            self.label_5.setText(cwd)
 
     @QtCore.pyqtSlot()
     def on_pushButton_2_clicked(self):
