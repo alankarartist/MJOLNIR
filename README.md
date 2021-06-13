@@ -8,7 +8,6 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package
 
 ```bash
 pip install PyQt5
-pip install ffmpeg
 pip install pytube
 pip install pyttsx3
 pip install PyAudio
