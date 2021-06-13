@@ -1,13 +1,11 @@
 from pytube import YouTube
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
-from PyQt5 import QtSql, uic, QtCore
+from PyQt5 import uic, QtCore
 import sys, urllib, os
-import webbrowser
 from PyQt5.QtCore import QThread
 from PyQt5.QtGui import QPixmap, QMovie, QImage
 from PyQt5.QtGui import *
-import ffmpeg
 import pyttsx3
 
 cwd = os.path.dirname(os.path.realpath(__file__))
