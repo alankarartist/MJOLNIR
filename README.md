@@ -22,3 +22,9 @@ pip install PyAudio
 2. Select the quality of the video according to your needs.
 3. Select the folder where you want to save the video.
 4. Click on download button.
+
+## Contributor
+
+<a href="https://github.com/alankarartist/MJOLNIR/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=alankarartist/MJOLNIR" />
+</a>
